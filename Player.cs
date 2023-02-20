@@ -8,11 +8,11 @@ using static System.Console;
 
 namespace ProgrammingII_CardGames_Project1
 {
-    class Player
+    public class Player
     {
         private string name = "Player";
 
-        public Player() { }
+        public Player() {  }
 
         public Player(string _name)
         {
@@ -37,6 +37,9 @@ namespace ProgrammingII_CardGames_Project1
             Pause();
             Clear();
         }
+
+        public List<Card> playerHand = new List<Card>();
+        
 
     }
 }

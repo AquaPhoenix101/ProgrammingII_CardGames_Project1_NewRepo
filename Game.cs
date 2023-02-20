@@ -17,12 +17,15 @@ namespace ProgrammingII_CardGames_Project1
         public bool gameEnd = false;
         public string Instructions;
         public Deck deck;
+        public Player player = new Player();
+        public Player dealer = new Player();        
 
 
         public virtual void Start()
         {
             Print($"Welcome to {gameName}!");
             Print($"{Instructions}");
+            player.ChangeName();
         }
 
     }

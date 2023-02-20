@@ -52,7 +52,7 @@ namespace ProgrammingII_CardGames_Project1
             string temp2 = tempp;
 
            //comparison
-            Print($"{num1} of {temp1}");
+            Print($"The card drawn is the {num1} of {temp1}");
             if (num1 < num2)
             {
                 match = true;
@@ -71,7 +71,7 @@ namespace ProgrammingII_CardGames_Project1
 
 
             //code made with help of Prog 201 pages and Kayla Ricker
-            Print("Do you think the next card will be higher or lower? \n 1)Higher \n 2)Lower");
+            Print("Do you think the next card will be higher or lower? \n 1) Higher \n 2) Lower");
             switch (getInputFromPlayer())
             {
                 case "1":

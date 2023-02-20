@@ -10,11 +10,11 @@ namespace ProgrammingII_CardGames_Project1
     public class Application
     {
         Game game = new Game();
+
         public void Menu()
         {
-            Player player = new Player();
-            player.ChangeName();
-            Print($"Welcome {player.Name}! What game do you want to play? \n 1) Bugs or Mushrooms \n 2) High Card Low Card \n 3) Highest Match \n 4) Credits");
+            
+            Print($"Welcome {game.player.Name}! What game do you want to play? \n 1) Bugs or Mushrooms \n 2) High Card Low Card \n 3) Highest Match \n 4) Credits");
             switch(getInputFromPlayer())
             {
                 case "1":
@@ -36,10 +36,11 @@ namespace ProgrammingII_CardGames_Project1
                     break;
 
                 case "4":
-                    ShowCredits();                    
+                    ShowCredits();
                     Menu();
-                    Console.Clear();
                     return;
+                    
+
             }
         }
 
@@ -47,7 +48,7 @@ namespace ProgrammingII_CardGames_Project1
         {
 
             Print($"This code was created with the help of Programming 201 pages, Kayla Ricker, and Janell Baxter.\n" +
-                $"Press any key to close this application, thank you for reading!");
+                $"Press any key to return to the name declaration, thank you for reading!");
             Console.ReadLine();
         }
     }

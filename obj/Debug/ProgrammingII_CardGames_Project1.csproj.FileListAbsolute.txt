@@ -5,3 +5,11 @@ C:\Users\AquaPhoenix\source\repos\ProgrammingII_CardGames_Project1\obj\Debug\Pro
 C:\Users\AquaPhoenix\source\repos\ProgrammingII_CardGames_Project1\obj\Debug\ProgrammingII_CardGames_Project1.csproj.CoreCompileInputs.cache
 C:\Users\AquaPhoenix\source\repos\ProgrammingII_CardGames_Project1\obj\Debug\ProgrammingII_CardGames_Project1.exe
 C:\Users\AquaPhoenix\source\repos\ProgrammingII_CardGames_Project1\obj\Debug\ProgrammingII_CardGames_Project1.pdb
+C:\Users\401087\Source\Repos\ProgrammingII_CardGames_Project1_NewRepo\bin\Debug\ProgrammingII_CardGames_Project1.exe.config
+C:\Users\401087\Source\Repos\ProgrammingII_CardGames_Project1_NewRepo\bin\Debug\ProgrammingII_CardGames_Project1.exe
+C:\Users\401087\Source\Repos\ProgrammingII_CardGames_Project1_NewRepo\bin\Debug\ProgrammingII_CardGames_Project1.pdb
+C:\Users\401087\Source\Repos\ProgrammingII_CardGames_Project1_NewRepo\obj\Debug\ProgrammingII_CardGames_Project1.csproj.AssemblyReference.cache
+C:\Users\401087\Source\Repos\ProgrammingII_CardGames_Project1_NewRepo\obj\Debug\ProgrammingII_CardGames_Project1.csproj.SuggestedBindingRedirects.cache
+C:\Users\401087\Source\Repos\ProgrammingII_CardGames_Project1_NewRepo\obj\Debug\ProgrammingII_CardGames_Project1.csproj.CoreCompileInputs.cache
+C:\Users\401087\Source\Repos\ProgrammingII_CardGames_Project1_NewRepo\obj\Debug\ProgrammingII_CardGames_Project1.exe
+C:\Users\401087\Source\Repos\ProgrammingII_CardGames_Project1_NewRepo\obj\Debug\ProgrammingII_CardGames_Project1.pdb

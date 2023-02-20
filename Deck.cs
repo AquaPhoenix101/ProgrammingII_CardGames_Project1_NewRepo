@@ -24,6 +24,13 @@ namespace ProgrammingII_CardGames_Project1
             }
         }
 
+        public Card DrawCard()
+        {
+            Card tempCard = Cards[0];
+            Cards.RemoveAt(0);
+            return tempCard;
+        }
+
         public void ShowDeck()
         {
             foreach(Card c in Cards)
@@ -62,22 +69,20 @@ namespace ProgrammingII_CardGames_Project1
 
         public void Shuffle()
         {
-            string[] suits = { "Rocks", "Leaves", "Bugs", "Mushrooms" };
-            Random randomNumber = new Random();
-            int randomElement = randomNumber.Next(suits.Length);
-            string temp = suits[randomElement];
-            suits[randomElement] = suits[0];
-            suits[0] = temp;
-            int number = randomNumber.Next(1, 13);
+            //string[] suits = { "Rocks", "Leaves", "Bugs", "Mushrooms" };
+            //Random randomNumber = new Random();
+            //int randomElement = randomNumber.Next(suits.Length);
+            //string temp = suits[randomElement];
+            //suits[randomElement] = suits[0];
+            //suits[0] = temp;
+            //int number = randomNumber.Next(1, 13);
 
-            string[] shuffleSuits = Shuffle(suits);
+            //string[] shuffleSuits = Shuffle(suits);
 
-            string[] Shuffle(string[] unshuffled)
-            {
-                Random random = new Random();
-                List<string> shuffled = unshuffled.ToList().OrderBy(a => random.Next()).ToList();
-                return shuffled.ToArray();
-            }
+            Random random = new Random();
+            Cards = Cards.ToList().OrderBy(a => random.Next()).ToList();
+
+           
         }
 
     }

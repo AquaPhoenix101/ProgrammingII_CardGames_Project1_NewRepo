@@ -51,7 +51,7 @@ namespace ProgrammingII_CardGames_Project1
             int num2 = number1;
             string temp2 = tempp;
 
-            Print($"{num1} of {temp1}");
+            Print($"The card drawn is the {num1} of {temp1}");
 
             if(temp1 == temp2)
             {
@@ -70,7 +70,7 @@ namespace ProgrammingII_CardGames_Project1
                 return shuffled.ToArray();
             }
 
-            Print("Do you think the next suit will be the same? \n 1)Yes \n 2)No ");
+            Print("Do you think the next suit will be the same? \n 1) Yes \n 2) No ");
             switch (getInputFromPlayer())
             {
 

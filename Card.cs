@@ -18,6 +18,6 @@ namespace ProgrammingII_CardGames_Project1
             Value = value;
         }
 
-        public string ShowDescription() => ($"{Suit}({Value.ToString("c")})");
+        public string ShowDescription() => ($"The card is the {Value} of {Suit}");
     }
 }
